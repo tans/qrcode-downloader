@@ -1,16 +1,12 @@
 # qrcode-downloader
 generate qrcode and download without panic
 
-website https://qrcode-downloader.vercel.app/
-
-![qrcode-downloader-sceenshot](screenshot/1.png)
-
 ## Usage
 
-Support url query param
+Support url query param `text`
 
-Example:
+Example: 
 
-```
-https://qrcode-downloader.vercel.app?text=abc
-```
+https://qrcode-downloader.vercel.app?text=abc 
+
+![qrcode-downloader-sceenshot](screenshot/1.png)
