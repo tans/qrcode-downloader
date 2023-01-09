@@ -23,10 +23,15 @@
 		<div class="m-4 p-4 bg-white rounded  mx-auto">
 			<canvas class="mx-auto border border-gray-100   my-4 " id="canvas"></canvas>
 			<div id="generator">
-
+				<div class="p-2 font-black">QR Content</div>
 				<textarea v-model="text" @change="change" placeholder="input content here"
-					class="w-full rounded p-4 border border-gray-400 hover:outline-none">
-			</textarea>
+					class="w-full rounded p-2 border border-gray-400 hover:outline-none">
+				</textarea>
+
+				<div class="p-2 font-black">Filename</div>
+				<input v-model="name" placeholder="input filename here"
+					class="w-full rounded p-2 border border-gray-400 hover:outline-none">
+				</input>
 
 				<button @click="download"
 					class="bg-blue-600 text-white my-4 p-2 w-48 rounded border-gray-50 hover:bg-blue-400">DOWNLOAD</button>
